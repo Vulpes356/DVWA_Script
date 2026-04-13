@@ -2,7 +2,7 @@ import requests
 import re
 import time
 
-localhost = "192.168.36.131"
+localhost = "localhost"
 DVWA_URL = f"http://{localhost}/DVWA"
 PASS_FILE = "test_rockyou.txt"
 USER_LIST = ["admin", "gordonb", "pablo", "1337", "smithy"]
